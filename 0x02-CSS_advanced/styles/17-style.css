@@ -411,11 +411,6 @@ template {
     --section-footer-padding: 3rem 0 0;
     --section-footer-align: center;
     --footer-padding: 5rem 0 1rem;
-
-
-
-
-
 }
 
 *,
@@ -472,19 +467,17 @@ h6 {
     color: var(--color-primary);
 }
 
-section {
+.section {
     padding: var(--section-padding);
 }
 
 .section-header {
     text-align: var(--section-header-align);
     padding: var(--section-header-padding);
-
 }
 
 .section-body {
     padding: var(--section-body-padding);
-
 }
 
 .section-footer {
@@ -511,7 +504,6 @@ section {
     width: 960px;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 .footer {

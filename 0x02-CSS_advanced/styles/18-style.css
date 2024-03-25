@@ -524,7 +524,7 @@ h6 {
 .nav {
     margin: 0;
     padding: 0;
-    text-decoration: none;
+    list-style: none;
     text-align: center;
 }
 
@@ -535,7 +535,6 @@ h6 {
     letter-spacing: var(--nav-item-letter-spacing);
     display: var(--nav-item-display);
     margin: var(--nav-item-margin);
-
 }
 
 .nav .nav-link {

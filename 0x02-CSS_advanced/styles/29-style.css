@@ -598,6 +598,11 @@ h6 {
     padding: 0.5rem 1rem;
 }
 
+.nav .nav-link:hover {
+    color: var(--nav-item-link-hover);
+}
+
+
 .nav .nav-link::before {
     content: "";
     position: absolute;
@@ -615,9 +620,6 @@ h6 {
     width: 100%;
 }
 
-.nav .nav-link:hover {
-    color: var(--nav-item-link-hover);
-}
 
 ul.row {
     margin: 0;
